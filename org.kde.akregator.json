@@ -30,13 +30,11 @@
         "--talk-name=org.kde.kcookiejar5",
         "--system-talk-name=org.freedesktop.NetworkManager"
     ],
-
     "cleanup-commands": [
         "# Cleanup after QtWebEngine",
         "rm -rf /app/include",
         "rm -rf /app/lib/{cmake,mkspecs,pkgconfig} /app/lib/*/*.la"
     ],
-
     "modules": [
         {
             "name": "boost",
@@ -87,8 +85,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/GNOME/libsecret/-/archive/0.20.5/libsecret-0.20.5.tar.gz",
-                    "sha256": "b33b9542222ea8866f6ff2d31c0ad373877c2277db546ca00cc7fdda9cbab1c3",
+                    "url": "https://download.gnome.org/sources/libsecret/0.20/libsecret-0.20.5.tar.xz",
+                    "sha256": "3fb3ce340fcd7db54d87c893e69bfc2b1f6e4d4b279065ffe66dac9f0fd12b4d",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "libsecret",
@@ -216,7 +214,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/steveire/grantlee/archive/refs/tags/v5.2.0.tar.gz",
+                    "url": "https://github.com/steveire/grantlee/archive/v5.2.0.tar.gz",
                     "sha256": "139acee5746b957bdf1327ec0d97c604d4c0b9be42aec5d584297cb5ed6a990a",
                     "x-checker-data": {
                         "type": "anitya",
@@ -662,8 +660,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kuserfeedback/kuserfeedback-1.0.0.tar.xz",
-                    "sha256": "5a2f53ebb4b99a280757ca32bd9b686a7764a726e7e4d8bafee33acbb44b9db7",
+                    "url": "https://download.kde.org/stable/kuserfeedback/kuserfeedback-1.2.0.tar.xz",
+                    "sha256": "76aac922b153249b274680a6f4c72c238ef14e3df04bad00cb64158b1063f264",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 138221,
