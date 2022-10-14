@@ -17,7 +17,6 @@
         "--own-name=org.freedesktop.Akonadi.*",
         "--own-name=org.kde.kaddressbook",
         "--own-name=org.kde.accountwizard",
-        "--own-name=org.kde.akregator",
         "--own-name=org.kde.pimsettingsexporter",
         "--own-name=org.kde.pim.*",
         "--talk-name=org.kde.Solid.PowerManagement",
@@ -315,8 +314,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/kontactinterface-22.08.1.tar.xz",
-                    "sha256": "da11284a0808c1c2cacc32b261250da89b916251b894ea4e3d1f4961c464ec48",
+                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/kontactinterface-22.08.2.tar.xz",
+                    "sha256": "c79a11b4c06f2b405459befb93fc42e57999f5951d49b909987fb9d6a1476ede",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -596,8 +595,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/kmbox-22.08.1.tar.xz",
-                    "sha256": "d7d49aed9288a69d3a5762f8e6529cd808e798b7fb935212ad1090ee1fee8958",
+                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/kmbox-22.08.2.tar.xz",
+                    "sha256": "61c66d09a29729703d252e9107fa5d0622ee4533ad9a95beae9299d0b40b9367",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
