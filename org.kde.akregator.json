@@ -65,7 +65,13 @@
                 {
                     "type": "archive",
                     "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.18.0.tar.bz2",
-                    "sha256": "361d4eae47ce925dba0ea569af40e7b52c645c4ae2e65e5621bf1b6cdd8b0e9e"
+                    "sha256": "361d4eae47ce925dba0ea569af40e7b52c645c4ae2e65e5621bf1b6cdd8b0e9e",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1239,
+                        "stable-only": true,
+                        "url-template": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-$version.tar.bz2"
+                    }
                 }
             ],
             "cleanup": [
@@ -151,8 +157,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://sqlite.org/2016/sqlite-autoconf-3150200.tar.gz",
-                            "sha256": "07b35063b9386865b78226cdaca9a299d938a87aaa8fdc4d73edb0cef30f3149"
+                            "url": "https://www.sqlite.org/2022/sqlite-autoconf-3390400.tar.gz",
+                            "sha256": "f31d445b48e67e284cf206717cc170ab63cbe4fd7f79a82793b772285e78fdbb"
                         }
                     ],
                     "cleanup": [
