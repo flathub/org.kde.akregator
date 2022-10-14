@@ -17,7 +17,6 @@
         "--own-name=org.freedesktop.Akonadi.*",
         "--own-name=org.kde.kaddressbook",
         "--own-name=org.kde.accountwizard",
-        "--own-name=org.kde.akregator",
         "--own-name=org.kde.pimsettingsexporter",
         "--own-name=org.kde.pim.*",
         "--talk-name=org.kde.Solid.PowerManagement",
