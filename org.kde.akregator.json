@@ -142,10 +142,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/akonadi-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "akonadi-target-default-args.patch"
                 }
             ],
             "modules": [
@@ -190,10 +186,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kmime-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "kmime-target-default-args.patch"
                 }
             ]
         },
@@ -207,18 +199,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/akonadi-mime-23.04.0.tar.xz",
-                    "sha256": "a91275c5ce277eefc9da76430c2228cdea90ffee0cb523432fcccb01c695b780",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/akonadi-mime-23.04.1.tar.xz",
+                    "sha256": "cc4b76ae076e7e2ca732e882cba6a383749e2d89e0e0e4e5cf24b1cec6b485f9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/akonadi-mime-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "akonadi-mime-target-default-args.patch"
                 }
             ]
         },
@@ -260,10 +248,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/grantleetheme-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "grantleetheme-target-default-args.patch"
                 }
             ]
         },
@@ -285,10 +269,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kpimtextedit-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "kpimtextedit-target-default-args.patch"
                 }
             ]
         },
@@ -310,10 +290,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libkleo-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "libkleo-target-default-args.patch"
                 }
             ]
         },
@@ -327,18 +303,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/akonadi-contacts-23.04.0.tar.xz",
-                    "sha256": "afd816058723d4fda79b61f0f052b24d47b822699695522db21c1a2141d7f83b",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/akonadi-contacts-23.04.1.tar.xz",
+                    "sha256": "20b806be770922b3715158e4ec8fab2117948979ada37a56e8bce7577f62a709",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/akonadi-contacts-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "akonadi-contacts-target-default-args.patch"
                 }
             ]
         },
@@ -356,10 +328,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kontactinterface-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "kontactinterface-target-default-args.patch"
                 }
             ]
         },
@@ -377,10 +345,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libkdepim-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "libkdepim-target-default-args.patch"
                 }
             ]
         },
@@ -402,10 +366,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kidentitymanagement-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "kidentitymanagement-target-default-args.patch"
                 }
             ]
         },
@@ -427,10 +387,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kimap-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "kimap-target-default-args.patch"
                 }
             ]
         },
@@ -444,18 +400,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/kldap-23.04.0.tar.xz",
-                    "sha256": "b27a690c0502198caf334b8eab498fbd14ff7280d3bdadf2afd4904c29a84e31",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/kldap-23.04.1.tar.xz",
+                    "sha256": "008862023f998eda519ce359629e17ca5f75a851f5c60f207a35adf0d3ab64ce",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kldap-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "kldap-target-default-args.patch"
                 }
             ],
             "modules": [
@@ -535,10 +487,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/akonadi-search-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "akonadi-search-target-default-args.patch"
                 }
             ]
         },
@@ -567,10 +515,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/pimcommon-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "pimcommon-target-default-args.patch"
                 }
             ]
         },
@@ -592,10 +536,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libgravatar-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "libgravatar-target-default-args.patch"
                 }
             ]
         },
@@ -617,10 +557,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/ksmtp-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "ksmtp-target-default-args.patch"
                 }
             ]
         },
@@ -663,10 +599,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kmailtransport-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "kmailtransport-target-default-args.patch"
                 }
             ]
         },
@@ -688,10 +620,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kmbox-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "kmbox-target-default-args.patch"
                 }
             ]
         },
@@ -713,10 +641,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/messagelib-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "messagelib-target-default-args.patch"
                 }
             ],
             "modules": [
