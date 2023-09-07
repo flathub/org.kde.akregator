@@ -688,6 +688,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/akregator-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "9e6bde8dd8622e07f07cb827c2158ee166f59d0a.patch"
                 }
             ]
         }

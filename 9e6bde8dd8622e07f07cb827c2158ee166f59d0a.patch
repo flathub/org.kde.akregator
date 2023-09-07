@@ -1,0 +1,24 @@
+From 9e6bde8dd8622e07f07cb827c2158ee166f59d0a Mon Sep 17 00:00:00 2001
+From: Tobias Fella <fella@posteo.de>
+Date: Thu, 7 Sep 2023 00:39:46 +0200
+Subject: [PATCH] Add project_license to appstream metadata
+
+---
+ src/data/org.kde.akregator.appdata.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/data/org.kde.akregator.appdata.xml b/src/data/org.kde.akregator.appdata.xml
+index 87a6a79e..d26c653c 100644
+--- a/src/data/org.kde.akregator.appdata.xml
++++ b/src/data/org.kde.akregator.appdata.xml
+@@ -2,6 +2,7 @@
+ <component type="desktop">
+   <id>org.kde.akregator.desktop</id>
+   <metadata_license>CC0-1.0</metadata_license>
++  <project_license>GPL-2.0+</project_license>
+   <name>Akregator</name>
+   <name xml:lang="ar">أكريغاتور</name>
+   <name xml:lang="az">Akregator</name>
+-- 
+GitLab
+
