@@ -216,14 +216,15 @@
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://invent.kde.org/frameworks/ktexttemplate.git",
-                    "tag": "v6.0.0",
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/frameworks/6.0/ktexttemplate-6.0.0.tar.xz",
+                    "sha256": "b964e612d2d623bbcf3f5a76ae4ba4408f80de6c588074c67f18834b5e48274c",
                     "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^v([\\d.]+)$"
-                    },
-                    "commit": "151a10a49f21aa8c204c37d341654b138f98f36e"
+                        "type": "anitya",
+                        "project-id": 8762,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/ktexttemplate-$version.tar.xz"
+                    }
                 }
             ]
         },
