@@ -722,14 +722,15 @@
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://invent.kde.org/frameworks/kuserfeedback.git",
-                    "tag": "v6.0.0",
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/frameworks/6.0/kuserfeedback-6.0.0.tar.xz",
+                    "sha256": "02f1af108e253c842526d31c997a1777b8f7a6e5b8698b5b1267ce1ec128af2b",
                     "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^v([\\d.]+)$"
-                    },
-                    "commit": "b43f49f3ab8212d0e0289c197afcaa5f0f775dc9"
+                        "type": "anitya",
+                        "project-id": 8762,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/kuserfeedback-$version.tar.xz"
+                    }
                 }
             ]
         },
