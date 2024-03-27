@@ -20,10 +20,12 @@
         "--own-name=org.kde.pimsettingsexporter",
         "--own-name=org.kde.pim.*",
         "--talk-name=org.kde.Solid.PowerManagement",
+        "--talk-name=org.kde.kded5",
         "--talk-name=org.kde.kded6",
         "--talk-name=org.kde.kglobalaccel",
         "--talk-name=org.kde.JobViewServer",
         "--talk-name=org.kde.knotify",
+        "--talk-name=org.kde.kwalletd5",
         "--talk-name=org.kde.kwalletd6",
         "--system-talk-name=org.freedesktop.NetworkManager"
     ],
