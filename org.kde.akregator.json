@@ -732,6 +732,14 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/akregator-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "appstream.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-appdata-Fix-typo-in-launchable-desktop-id.patch"
                 }
             ]
         }
