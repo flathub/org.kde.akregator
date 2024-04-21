@@ -46,8 +46,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.84.0/source/boost_1_84_0.tar.bz2",
-                    "sha256": "cc4b893acf645c9d4b698e9a0f08ca8846aa5d6c68275c14c3e7949c24109454",
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.85.0/source/boost_1_85_0.tar.bz2",
+                    "sha256": "7009fe1faa1697476bdc7027703a2badb84e849b7b0baad5086b087b971f8617",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -218,12 +218,12 @@
                 {
                     "type": "git",
                     "url": "https://invent.kde.org/frameworks/ktexttemplate.git",
-                    "tag": "v6.0.0",
+                    "tag": "v6.1.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "151a10a49f21aa8c204c37d341654b138f98f36e"
+                    "commit": "1f8c05171c3fa4844b73261e96d3803902e7c038"
                 }
             ]
         },
@@ -300,8 +300,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/libkleo-24.02.0.tar.xz",
-                    "sha256": "ade428daca544798314a3a5b577efe8417c6d2182f74e427f3d7c79c3ca1b96c",
+                    "url": "https://download.kde.org/stable/release-service/24.02.2/src/libkleo-24.02.2.tar.xz",
+                    "sha256": "2fe3ad5004ac9b42616138ef2fc0d21b26282192d0d78618e12b06a5fa73f499",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -723,12 +723,12 @@
                 {
                     "type": "git",
                     "url": "https://invent.kde.org/frameworks/kuserfeedback.git",
-                    "tag": "v6.0.0",
+                    "tag": "v6.1.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "b43f49f3ab8212d0e0289c197afcaa5f0f775dc9"
+                    "commit": "e82ee1f43ad25aa24d96e09268c076ac6368fa08"
                 }
             ]
         },
