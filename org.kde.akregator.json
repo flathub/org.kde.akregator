@@ -557,8 +557,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.02.2/src/libgravatar-24.02.2.tar.xz",
-                    "sha256": "b7df55f09b32dcfe668e549c71acba77cd62097a18713b3112befd6f4a3e5285",
+                    "url": "https://download.kde.org/stable/release-service/24.05.1/src/libgravatar-24.05.1.tar.xz",
+                    "sha256": "c441ba0f2553696598327f6138565d3d5bdfcfa1350ba13473f65e08b3383c73",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -599,8 +599,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.02.2/src/libkgapi-24.02.2.tar.xz",
-                    "sha256": "c43c8405258380cb3c66b91e859a6d9a1949525d2be731d703ea1f4b7ec367c0",
+                    "url": "https://download.kde.org/stable/release-service/24.05.1/src/libkgapi-24.05.1.tar.xz",
+                    "sha256": "9230ffed9059bdf5d90e0fa2a56b61873023add77aec50ac6ceb4a34d03578b4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
