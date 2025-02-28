@@ -194,7 +194,8 @@
             "name": "grantlee",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+            "-DBUILD_TESTING=OFF",
+            "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DGRANTLEE_BUILD_WITH_QT6=ON"
             ],
             "sources": [
@@ -339,6 +340,9 @@
         {
             "name": "kontactinterface",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -356,6 +360,9 @@
         {
             "name": "libkdepim",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -373,6 +380,9 @@
         {
             "name": "kirigami-addons",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "builddir": true,
             "sources": [
                 {
@@ -533,6 +543,9 @@
         {
             "name": "pimcommon",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -719,6 +732,9 @@
         {
             "name": "akregator",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "post-install": [
                 "mv ${FLATPAK_DEST}/share/mime/packages/akonadi-mime.xml ${FLATPAK_DEST}/share/mime/packages/${FLATPAK_ID}.xml"
             ],
