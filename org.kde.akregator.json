@@ -92,8 +92,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libsecret/0.21/libsecret-0.21.6.tar.xz",
-                    "sha256": "747b8c175be108c880d3adfb9c3537ea66e520e4ad2dccf5dce58003aeeca090",
+                    "url": "https://download.gnome.org/sources/libsecret/0.21/libsecret-0.21.7.tar.xz",
+                    "sha256": "6b452e4750590a2b5617adc40026f28d2f4903de15f1250e1d1c40bfd68ed55e",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "libsecret",
@@ -221,8 +221,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.11/ktexttemplate-6.11.0.tar.xz",
-                    "sha256": "b0f30c6e49a132cdf587228e0ba1e1d974cc155d233b57ff617f5d55e7f7b905",
+                    "url": "https://download.kde.org/stable/frameworks/6.12/ktexttemplate-6.12.0.tar.xz",
+                    "sha256": "9fffd7f6c9309b2fca397cfedbdb55ded33e4a8e5438e0dcebf33b6f9500699c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -718,8 +718,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.11/kuserfeedback-6.11.0.tar.xz",
-                    "sha256": "ac516b7b8f9cd0891664f8b580d0a5a5c494cf6b5dbfddd87b6f6256548b7910",
+                    "url": "https://download.kde.org/stable/frameworks/6.12/kuserfeedback-6.12.0.tar.xz",
+                    "sha256": "6f45537b3274d99c3d51bb5ce34efef9b56a66a860900a638a06e6648b13302c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
