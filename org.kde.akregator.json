@@ -35,6 +35,12 @@
         "rm -rf /app/include",
         "rm -rf /app/lib/{cmake,mkspecs,pkgconfig} /app/lib/*/*.la"
     ],
+    "cleanup": [
+        "/lib/*/cmake",
+        "/lib/*/pkgconfig",
+        "/share/kdevappwizard",
+        "/share/qlogging-categories6"
+    ],
     "modules": [
         {
             "name": "boost",
