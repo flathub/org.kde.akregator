@@ -109,7 +109,8 @@
                 "-DCMAKE_INSTALL_LIBDIR=/app/lib",
                 "-DLIB_INSTALL_DIR=/app/lib",
                 "-DBUILD_TRANSLATIONS=NO",
-                "-DBUILD_WITH_QT6=ON"
+                "-DBUILD_WITH_QT6=ON",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "sources": [
                 {
@@ -215,7 +216,8 @@
         {
             "name": "ktexttemplate",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "buildsystem": "cmake-ninja",
             "sources": [
@@ -258,6 +260,7 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DQT_MAJOR_VERSION=6"
             ],
             "sources": [
@@ -341,7 +344,8 @@
             "name": "kontactinterface",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "sources": [
                 {
@@ -361,7 +365,8 @@
             "name": "libkdepim",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "sources": [
                 {
@@ -381,7 +386,8 @@
             "name": "kirigami-addons",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "builddir": true,
             "sources": [
@@ -544,7 +550,8 @@
             "name": "pimcommon",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "sources": [
                 {
@@ -690,6 +697,7 @@
                     "name": "qca",
                     "config-opts": [
                         "-DENABLE_TESTING=OFF",
+                        "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                         "-DBUILD_WITH_QT6=ON"
                     ],
                     "buildsystem": "cmake-ninja",
@@ -712,7 +720,8 @@
         {
             "name": "kuserfeedback",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "buildsystem": "cmake-ninja",
             "sources": [
@@ -733,7 +742,8 @@
             "name": "akregator",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "post-install": [
                 "mv ${FLATPAK_DEST}/share/mime/packages/akonadi-mime.xml ${FLATPAK_DEST}/share/mime/packages/${FLATPAK_ID}.xml"
