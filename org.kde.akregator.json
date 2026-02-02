@@ -30,10 +30,17 @@
         "--talk-name=org.kde.kwalletd5",
         "--talk-name=org.kde.kwalletd6"
     ],
+    "cleanup": [
+        "/include",
+        "/share/aclocal",
+        "/share/doc",
+        "/share/man",
+        "/share/qlogging-categories6",
+        "*.la",
+        "*.a"
+    ],
     "cleanup-commands": [
-        "# Cleanup after QtWebEngine",
-        "rm -rf /app/include",
-        "rm -rf /app/lib/{cmake,mkspecs,pkgconfig} /app/lib/*/*.la"
+        "/app/cleanup-BaseApp.sh"
     ],
     "modules": [
         {
