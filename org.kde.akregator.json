@@ -146,8 +146,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kmime-25.12.2.tar.xz",
-                    "sha256": "8d81167adb67558e707f7c71f710d5f0b1a89d6b54301a4ac51518d1841baf62",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kmime-26.04.3.tar.xz",
+                    "sha256": "a118b0d3b3ad2ebb35f73c675cffff575cd1b36ff5875d4f9fd4bce884bbae8a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -209,8 +209,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.22/ktexttemplate-6.22.0.tar.xz",
-                    "sha256": "53038e8eedb91e0672bd52bd75b89d196821db3b9d30a0a802f4c964e68f1f7d",
+                    "url": "https://download.kde.org/stable/frameworks/6.27/ktexttemplate-6.27.0.tar.xz",
+                    "sha256": "18a92b802b1c3130ff22087f9e048807bdf39c4147835e9aaa1be18408b9361b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -251,8 +251,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.9.1.tar.xz",
-                    "sha256": "366d5a94c7405482c3a6d261347c1b995de73a087059996b117d612bfc1291c2",
+                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-2.1.0.tar.xz",
+                    "sha256": "42c76b6620dceafa98bb02a9e25ac059b48819f9923b55517c9e087d85d413ae",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 351168,
@@ -558,8 +558,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/ksmtp-25.12.2.tar.xz",
-                    "sha256": "331c237109d63c30a16293841cdfad263a0bdccb60f767831078a6ffe6489e41",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/ksmtp-26.04.3.tar.xz",
+                    "sha256": "6e1bcb1094b38f536c89e7c1005a493c267b2402f3a4f456181769bf2f300992",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -600,8 +600,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kmailtransport-25.12.2.tar.xz",
-                    "sha256": "f854379012009af74bbb95d76a2f903cddbba654a2c63535953bba9e1a6ceabc",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kmailtransport-26.04.3.tar.xz",
+                    "sha256": "fea7cd107ddc2199e8c104eba00eb8469ffaaccd67ce4e403917971d23e4c675",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -621,8 +621,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kmbox-25.12.2.tar.xz",
-                    "sha256": "c175d4cf3ece8cfd86a6769f48359dc55363973a22d0ce5c0ebaf4de533ce32e",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kmbox-26.04.3.tar.xz",
+                    "sha256": "ff39d6616f9d56a318cbb4e029bd42960f8a115579bdce7785e0af6f1fe5ee59",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -642,8 +642,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/messagelib-25.12.2.tar.xz",
-                    "sha256": "1795687da8d01dc15ff3fcfa98a6a5d9eda91daff44d79ef35dd22544ca8129e",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/messagelib-26.04.3.tar.xz",
+                    "sha256": "45b6e7c933bc63688ebfa643a75c7f0b8d827577a977b597931d9af9bbbcc1cf",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
