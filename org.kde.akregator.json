@@ -119,7 +119,8 @@
                 "-DBUILD_TESTING=OFF",
                 "-DBUILD_TOOLS=OFF",
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
-                "-DDATABASE_BACKEND=SQLITE"
+                "-DDATABASE_BACKEND=SQLITE",
+                "-DBUILD_PYTHON_BINDINGS=OFF"
             ],
             "buildsystem": "cmake-ninja",
             "sources": [
